@@ -6,7 +6,7 @@ quando atingir um determinado limite, acionará um motor de passo para girar uma
 o sistema fornecerá notificações sonoras e visuais para alertar os usuários sobre as condições da estufa, 
 além de possuir conexão com a plataforma Arduino Cloud que servirá para gerenciamento de dados e do código.
 
-Recursos:
+# Recursos:
 
 Os seguintes recursos serão necessários para o projeto:
 
@@ -25,17 +25,17 @@ Buzzer: O buzzer será utilizado para emitir notificações sonoras quando a tem
 LED: O LED será usado para fornecer notificações visuais, piscando ou mudando de cor de acordo com as condições estabelecidas no sistema.
 
 
-Simulação virtual do circuito:
+### Simulação virtual do circuito:
 ![Sistema de Monitoramento de Temperatura](https://github.com/KalilRamos/SmartGreenhouses/assets/134665832/2f5dc838-6339-4c6e-8f4d-58b0d9695a7b)
 
 
-Protótipo 1:
+## Protótipo 1:
 Para o prototipo 1, fizemos algumas alterações em relação à simulação do tinkercad, utilizamos um motor de passo utilizando 4 pinos do arduino. 
 
 ![image](https://github.com/KalilRamos/SmartGreenhouses/assets/134665832/7029427d-35c9-4d00-8ec6-fe0174a7ae68)
 
 
-Protótipo 2:
+## Protótipo 2:
 Para o prototipo 2, trocamos a placa arduíno uno pela placa esp32 para conseguirmos fazer a conecção com a plataforma arduíno cloud para conseguirmos reter os dados captados pelo sensor e produzir dashboards em tempo real.
 Utilizamos somente o sensor DHT11 nesse protótipo para que possamos fazer testes específicos de captura de temperatura da melhor forma.
 
