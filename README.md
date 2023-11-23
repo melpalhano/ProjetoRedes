@@ -6,23 +6,23 @@ quando atingir um determinado limite, acionará um motor de passo para girar uma
 o sistema fornecerá notificações sonoras e visuais para alertar os usuários sobre as condições da estufa, 
 além de possuir conexão com a plataforma Arduino Cloud que servirá para gerenciamento de dados e do código.
 
-# Recursos:
+### Recursos:
 
 Os seguintes recursos serão necessários para o projeto:
 
-Arduino Uno (R3): O Arduino Uno atuará como o cérebro da estufa, controlando todos os componentes eletrônicos e executando o código de automação;
+* Arduino Uno (R3): O Arduino Uno atuará como o cérebro da estufa, controlando todos os componentes eletrônicos e executando o código de automação;
 
-Esp32 (DOIT ESP32 DEVKIT V1): O Esp atuará como o cérebro da estufa, controlando todos os componentes eletrônicos, executando o código de automação e conectando com a plataforma arduino cloud para a retenção de dados do sensor;
+* Esp32 (DOIT ESP32 DEVKIT V1): O Esp atuará como o cérebro da estufa, controlando todos os componentes eletrônicos, executando o código de automação e conectando com a plataforma arduino cloud para a retenção de dados do sensor;
 
-Plataforma Arduino Cloud: A plataforma Arduino Cloud será utilizada para criar, gerenciar e monitorar o código de automação remotamente;
+* Plataforma Arduino Cloud: A plataforma Arduino Cloud será utilizada para criar, gerenciar e monitorar o código de automação remotamente;
 
-Sensor de Temperatura DHT11: O sensor de temperatura DHT11 será responsável por medir a temperatura ambiente dentro da estufa, fornecendo informações precisas para o controle térmico;
+* Sensor de Temperatura DHT11: O sensor de temperatura DHT11 será responsável por medir a temperatura ambiente dentro da estufa, fornecendo informações precisas para o controle térmico;
 
-Motor de Passo: O motor de passo será usado para girar uma hélice que promoverá a ventilação e o resfriamento da estufa quando a temperatura ultrapassar um limite definido;
+* Motor de Passo: O motor de passo será usado para girar uma hélice que promoverá a ventilação e o resfriamento da estufa quando a temperatura ultrapassar um limite definido;
 
-Buzzer: O buzzer será utilizado para emitir notificações sonoras quando a temperatura atingir níveis críticos ou quando ocorrerem eventos específicos, como a ativação do motor de passo;
+* Buzzer: O buzzer será utilizado para emitir notificações sonoras quando a temperatura atingir níveis críticos ou quando ocorrerem eventos específicos, como a ativação do motor de passo;
 
-LED: O LED será usado para fornecer notificações visuais, piscando ou mudando de cor de acordo com as condições estabelecidas no sistema.
+* LED: O LED será usado para fornecer notificações visuais, piscando ou mudando de cor de acordo com as condições estabelecidas no sistema.
 
 
 ### Simulação virtual do circuito:
