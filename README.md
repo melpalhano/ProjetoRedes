@@ -33,18 +33,16 @@ Protótipo 1:
 Para o prototipo 1, fizemos algumas alterações em relação à simulação do tinkercad, utilizamos um motor de passo utilizando 4 pinos do arduino. 
 
 ![image](https://github.com/KalilRamos/SmartGreenhouses/assets/134665832/7029427d-35c9-4d00-8ec6-fe0174a7ae68)
-                                            <protótipo 1>
 
 
 Protótipo 2:
 Para o prototipo 2, trocamos a placa arduíno uno pela placa esp32 para conseguirmos fazer a conecção com a plataforma arduíno cloud para conseguirmos reter os dados captados pelo sensor e produzir dashboards em tempo real.
 Utilizamos somente o sensor DHT11 nesse protótipo para que possamos fazer testes específicos de captura de temperatura da melhor forma.
 
-![image](https://github.com/KalilRamos/SmartGreenhouses/assets/134665832/bb9d309a-dac8-429f-a7bb-b336d35cb686)
-                                            <protótipo 2>
+![image](https://github.com/KalilRamos/SmartGreenhouses/assets/134665832/bb9d309a-dac8-429f-a7bb-b336d35cb686)                                        
 
 ![image](https://github.com/KalilRamos/SmartGreenhouses/assets/134665832/29ade9a2-b13a-4e71-b4f6-428c7f59757e)
-                                            <Arduino Cloud>
+                                           
 
 
 
