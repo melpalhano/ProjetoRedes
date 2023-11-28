@@ -22,9 +22,8 @@ float temperatura = 0;
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-  // Initialize serial and wait for port to open:
+  // Inicia o monitor serial
   Serial.begin(9600);
-  // This delay gives the chance to wait for a Serial Monitor without blocking if none is found
   delay(1500); 
 
   // Defined in thingProperties.h
@@ -42,31 +41,26 @@ void setup() {
  */
   setDebugMessageLevel(2);
   ArduinoCloud.printDebugInfo();
+  // Inicia o sensor
   dht.begin();
 }
-
+// Inicia a leitura da temperatura
 float lerTemperatura() {
   float temperature = dht.readTemperature();
   return temperature;
 }
 
 void loop() {
+  // atualiza os dados no cloud
   ArduinoCloud.update();
   delay(1000);
+  // Chama a variável criada no cloud para o envio das leituras do sensor
   temperatura = lerTemperatura();
   tempH = temperatura;
+  // Imprime a temperatura
   Serial.print("Temperature (C): ");
   Serial.println(temperatura);
   // Your code here 
   
   
-}
-
-
-
-/*
-  Since TempH is READ_WRITE variable, onTempHChange() is
-  executed every time a new value is received from IoT Cloud.
-*/
-void onTempHChange()  {
 }
